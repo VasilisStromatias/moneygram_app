@@ -4,7 +4,10 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hey dude</Text>
+      <Text style={{
+        fontSize: 40,
+        textAlign: 'center',
+      }}>Welcome to Moneygram</Text>
       <StatusBar style="auto" />
     </View>
   );
